@@ -94,3 +94,20 @@ p {
   border-radius: 4px;
   box-shadow: var(--box-shadow);
 }
+@media (max-width: 576px) {
+  h1 {
+    font-size: 46px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  .launch-page-link {
+    display: block;
+    text-align: center;
+    margin: 0 30px;
+
+  }
+  #contact {
+    margin-top: 45px;
+  }
+}
